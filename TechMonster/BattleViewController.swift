@@ -110,7 +110,7 @@ class BattleViewController: UIViewController {
     //敵を自動で攻撃するようにする　playerAttack()と逆の操作を行うenemyAttack()を作成
     @objc func enemyAttack(){
         TechDraUtil.animateDamage(playerImageView)
-        TechDraUtil.playBGM(fileName: "SE_attack")
+        TechDraUtil.playSE(fileName: "SE_attack")
         
         //HPの更新
         player.currentHP = player.currentHP - player.attackPower

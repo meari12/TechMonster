@@ -19,19 +19,19 @@ class LobbyViewController: UIViewController {
     @IBOutlet var levelLabel: UILabel!
     
     @IBAction func startBattle() {
-        //冒険を始めるときにスタミナを減らす
-        //20より少なければアラートを出す
-        if stamina >= 20 {
-            stamina = stamina - 20
-            staminaBar.progress = stamina / maxStamina
-            performSegue(withIdentifier: "startBattle", sender: nil)
-        } else {
-            let alert = UIAlertController(title: "スタミナ不足", message: "スタミナが20以上必要です", preferredStyle: .alert)
-            let action = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alert.addAction(action)
-            present(alert, animated: true, completion: nil)
+            //冒険を始めるときにスタミナを減らす
+            //20より少なければアラートを出す
+            if stamina >= 20 {
+                stamina = stamina - 20
+                staminaBar.progress = stamina / maxStamina
+                performSegue(withIdentifier: "startBattle", sender: nil)
+            } else {
+                let alert = UIAlertController(title: "スタミナ不足", message: "スタミナが20以上必要です", preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alert.addAction(action)
+                present(alert, animated: true, completion: nil)
+            }
         }
-    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "startButtle" {
@@ -49,7 +49,7 @@ class LobbyViewController: UIViewController {
         
         //プレイヤーのデータをセット
         nameLabel.text = player.name
-        levelLabel.text = String(format: "Lv.%d", player.level)
+        levelLabel.text = String(format: "Lv. %d", player.level)
         
         //スタミナを起動時に最大にする（保存できると良いね！）
         stamina = maxStamina

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CC6315E7282B9EB600D1440B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6315E6282B9EB600D1440B /* AppDelegate.swift */; };
 		CC6315E9282B9EB600D1440B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6315E8282B9EB600D1440B /* SceneDelegate.swift */; };
-		CC6315EB282B9EB600D1440B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6315EA282B9EB600D1440B /* ViewController.swift */; };
 		CC6315EE282B9EB600D1440B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6315EC282B9EB600D1440B /* Main.storyboard */; };
 		CC6315F0282B9EB900D1440B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6315EF282B9EB900D1440B /* Assets.xcassets */; };
 		CC6315F3282B9EB900D1440B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6315F1282B9EB900D1440B /* LaunchScreen.storyboard */; };
@@ -42,7 +41,6 @@
 		CC6315E3282B9EB500D1440B /* TechMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6315E6282B9EB600D1440B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC6315E8282B9EB600D1440B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC6315EA282B9EB600D1440B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC6315ED282B9EB600D1440B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC6315EF282B9EB900D1440B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC6315F2282B9EB900D1440B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				CC6315FA282B9EFF00D1440B /* TechMon_Resources */,
 				CC6315E6282B9EB600D1440B /* AppDelegate.swift */,
 				CC6315E8282B9EB600D1440B /* SceneDelegate.swift */,
-				CC6315EA282B9EB600D1440B /* ViewController.swift */,
 				CC631623282C102100D1440B /* LobbyViewController.swift */,
 				CC631625282C107400D1440B /* BattleViewController.swift */,
 				CC6315EC282B9EB600D1440B /* Main.storyboard */,
@@ -267,7 +264,6 @@
 			files = (
 				CC631626282C107400D1440B /* BattleViewController.swift in Sources */,
 				CC631618282B9EFF00D1440B /* Enemy.swift in Sources */,
-				CC6315EB282B9EB600D1440B /* ViewController.swift in Sources */,
 				CC6315E7282B9EB600D1440B /* AppDelegate.swift in Sources */,
 				CC6315E9282B9EB600D1440B /* SceneDelegate.swift in Sources */,
 				CC631624282C102100D1440B /* LobbyViewController.swift in Sources */,
