@@ -31,14 +31,14 @@ class LobbyViewController: UIViewController {
                 alert.addAction(action)
                 present(alert, animated: true, completion: nil)
             }
-        }
-    
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "startButtle" {
+        if segue.identifier == "startBattle" {
             let battleVC = segue.destination as! BattleViewController
             player.currentHP = player.maxHP
             battleVC.player = player
-    }
+            
+        }
     }
 
     override func viewDidLoad() {
